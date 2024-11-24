@@ -110,7 +110,7 @@ public:
             linear_vel = 0.0;
         } else {
             linear_vel = 0.2;
-            angular_vel = 0.0;
+            angular_vel = 0.2;
         }
     }
 
@@ -151,7 +151,7 @@ public:
      */
     void update(const sensor_msgs::msg::LaserScan::SharedPtr msg) override {
         linear_vel = 0.2;
-        angular_vel = 0.0;
+        angular_vel = 0.2;
     }
 
     /**
