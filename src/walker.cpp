@@ -153,7 +153,7 @@ class ForwardState : public RoombaState {
    */
   void update(const sensor_msgs::msg::LaserScan::SharedPtr /*msg*/) override {
     linear_vel = 0.2;
-    angular_vel = 0.2;
+    angular_vel = 0.3;
   }
 
   /**
