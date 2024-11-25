@@ -56,6 +56,9 @@ install(TARGETS
 walker
 DESTINATION lib/${PROJECT_NAME})
 
+include_directories(
+  ${geometry_msgs_INCLUDE_DIRS}
+)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
